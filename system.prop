@@ -6,3 +6,7 @@ rild.libargs=-d /dev/ttyC0
 # SDK version override
 #persist.sys.phh.sdk_override=/vendor/xbin/mnld=27
 
+# ADB
+persist.sys.root_access=2
+#service.adb.tcp.port=5555
+

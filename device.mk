@@ -28,14 +28,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Apps
-PRODUCT_PACKAGES += \
-    Snap \
-    FootejCamera2 \
-    SpectrumSuper \
-    init.spectrum \
-    privapp-permissions-com.hq.spectrumsuper
-
 # Shim symbols
 PRODUCT_PACKAGES += \
     mtkc \
@@ -73,10 +65,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor \
     libbluetooth_mtk
-
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio
 
 # Audio
 PRODUCT_PACKAGES += \
